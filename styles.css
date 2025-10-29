@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pokemonList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card {
+    border: solid 1px #575757;
+    width: 12em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #282828;
+}
+
+img {
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.checkboxes {
+    border-top: 2px solid #575757;
+    padding-top: 2px;
+}
